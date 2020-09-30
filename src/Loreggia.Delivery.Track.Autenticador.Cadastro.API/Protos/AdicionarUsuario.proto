@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option csharp_namespace = "Loreggia.Delivery.Track.Autenticador.Cadastro.API.Protos";
+
+package usuario;
+
+service Usuario {
+	rpc AdicionarUsuario (AdicionarUsuarioRequest) returns (UsuarioResponse);
+}
+
+message AdicionarUsuarioRequest {
+	int32 CodigoEmpresa = 1;
+	string Nome = 2;
+	string Email = 3;
+	string Senha = 4;
+}
+
+
+message UsuarioResponse {
+	bool Success = 1;
+	string Message = 2;
+	bool HasAProblem = 3;
+	bool HasAValidationError = 4;
+	repeated string ValidationErrors = 5; 
+}

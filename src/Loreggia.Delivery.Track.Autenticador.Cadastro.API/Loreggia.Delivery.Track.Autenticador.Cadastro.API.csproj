@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\*.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\AdicionarUsuario.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Loreggia.Delivery.Track.Autenticador.Applications\Loreggia.Delivery.Track.Autenticador.Applications.csproj" />
+    <ProjectReference Include="..\Loreggia.Delivery.Track.Autenticador.DependencyInjection\Loreggia.Delivery.Track.Autenticador.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Loreggia.Delivery.Track.Shared.API\Loreggia.Delivery.Track.Shared.API.csproj" />
+    <ProjectReference Include="..\Loreggia.Delivery.Track.Shared.DependencyInjection\Loreggia.Delivery.Track.Shared.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Loreggia.Delivery.Track.Shared.GRPC\Loreggia.Delivery.Track.Shared.GRPC.csproj" />
+  </ItemGroup>
+
+</Project>

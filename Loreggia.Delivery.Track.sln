@@ -1,0 +1,164 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001 - APIs", "001 - APIs", "{B09B8105-2AAA-4B8B-A133-724299424168}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "002 - Aplications", "002 - Aplications", "{9D004F0B-AF04-47CF-B1EC-2DF499E0ED02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "003 - Domain", "003 - Domain", "{3DBE3185-6DB2-43AA-9358-811AC994AD54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "004 - Repositories", "004 - Repositories", "{AC53A89C-F2EC-48FF-97ED-48C16F290211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "006 - Shared", "006 - Shared", "{799393D8-FEBD-4AF5-87F7-9D63D3C273B8}"
+	ProjectSection(SolutionItems) = preProject
+		src\Loreggia.Delivery.Track.Shared.GRPCClient\Loreggia.Delivery.Track.Shared.GRPCClient.csproj = src\Loreggia.Delivery.Track.Shared.GRPCClient\Loreggia.Delivery.Track.Shared.GRPCClient.csproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "999 - Tests", "999 - Tests", "{FE61594D-35F4-4DB9-82A4-A84F595F3862}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.UnitTest", "test\Loreggia.Delivery.Track.Autenticador.UnitTest\Loreggia.Delivery.Track.Autenticador.UnitTest.csproj", "{B5139740-C9AC-48A4-B336-B2670954F244}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.BuilderTest", "test\Loreggia.Delivery.Track.Autenticador.BuilderTest\Loreggia.Delivery.Track.Autenticador.BuilderTest.csproj", "{D0FBECA9-7B2C-4C67-9E12-BEB661DCE36B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005 -DependencyInjection", "005 -DependencyInjection", "{9820EA71-219B-48D0-B64B-9107E4A4CFE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.DependencyInjection", "src\Loreggia.Delivery.Track.Autenticador.DependencyInjection\Loreggia.Delivery.Track.Autenticador.DependencyInjection.csproj", "{E4572232-444D-4B19-B7D3-A8DDE5C335E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.Applications", "src\Loreggia.Delivery.Track.Autenticador.Applications\Loreggia.Delivery.Track.Autenticador.Applications.csproj", "{5F1B10A4-65BF-4DE0-91A7-69C188F4D3A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.Cadastro.API", "src\Loreggia.Delivery.Track.Autenticador.Cadastro.API\Loreggia.Delivery.Track.Autenticador.Cadastro.API.csproj", "{40040CBD-52B2-4BEA-B13B-384ACBD2686C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.Domain", "src\Loreggia.Delivery.Track.Shared.Domain\Loreggia.Delivery.Track.Shared.Domain.csproj", "{F1C64197-E64B-4A0E-8BA4-B1D6CBE44FBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.Helper", "src\Loreggia.Delivery.Track.Shared.Helper\Loreggia.Delivery.Track.Shared.Helper.csproj", "{E9DB3C32-B882-45C6-9D6D-A66A3CCFC4F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.Application", "src\Loreggia.Delivery.Track.Shared.Application\Loreggia.Delivery.Track.Shared.Application.csproj", "{CAC8C6B5-ED60-4EE6-B8B8-1F75CE288A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.EntityRepository", "src\Loreggia.Delivery.Track.Shared.EntityRepository\Loreggia.Delivery.Track.Shared.EntityRepository.csproj", "{C69598DA-FB9F-4D9F-9188-D9A2B1452315}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.ReadOnlyRepository", "src\Loreggia.Delivery.Track.Shared.ReadOnlyRepository\Loreggia.Delivery.Track.Shared.ReadOnlyRepository.csproj", "{E3287FE9-D4B3-4E11-AA4E-F114EAC21C1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.ViewModels", "src\Loreggia.Delivery.Track.Shared.ViewModels\Loreggia.Delivery.Track.Shared.ViewModels.csproj", "{8F595667-0A98-48C6-8792-F76731183E31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.DependencyInjection", "src\Loreggia.Delivery.Track.Shared.DependencyInjection\Loreggia.Delivery.Track.Shared.DependencyInjection.csproj", "{332C220D-68A7-40A5-A1AB-FD904A0B9A10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.API", "src\Loreggia.Delivery.Track.Shared.API\Loreggia.Delivery.Track.Shared.API.csproj", "{6E36D377-85DB-4AF3-80DC-9B0D3DCEB071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.GRPC", "src\Loreggia.Delivery.Track.Shared.GRPC\Loreggia.Delivery.Track.Shared.GRPC.csproj", "{7A3FBF60-FEA8-45D6-B834-36B47CB2E429}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Shared.GRPCClient", "src\Loreggia.Delivery.Track.Shared.GRPCClient\Loreggia.Delivery.Track.Shared.GRPCClient.csproj", "{A7674918-8D88-4974-A5C6-AD11BF321DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.Domain", "src\Loreggia.Delivery.Track.Autenticador.Domain\Loreggia.Delivery.Track.Autenticador.Domain.csproj", "{8FA69503-3911-4E2E-851D-C47539D3578D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.Repository", "src\Loreggia.Delivery.Track.Autenticador.Repository\Loreggia.Delivery.Track.Autenticador.Repository.csproj", "{7C0CF242-357F-440B-AFA3-D6BAAE386B17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loreggia.Delivery.Track.Autenticador.ReadOnlyRepository", "src\Loreggia.Delivery.Track.Autenticador.ReadOnlyRepository\Loreggia.Delivery.Track.Autenticador.ReadOnlyRepository.csproj", "{B09EE4E8-A7DD-4BA1-9CCE-EC53A3784A8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5139740-C9AC-48A4-B336-B2670954F244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5139740-C9AC-48A4-B336-B2670954F244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5139740-C9AC-48A4-B336-B2670954F244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5139740-C9AC-48A4-B336-B2670954F244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FBECA9-7B2C-4C67-9E12-BEB661DCE36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FBECA9-7B2C-4C67-9E12-BEB661DCE36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FBECA9-7B2C-4C67-9E12-BEB661DCE36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FBECA9-7B2C-4C67-9E12-BEB661DCE36B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4572232-444D-4B19-B7D3-A8DDE5C335E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4572232-444D-4B19-B7D3-A8DDE5C335E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4572232-444D-4B19-B7D3-A8DDE5C335E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4572232-444D-4B19-B7D3-A8DDE5C335E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1B10A4-65BF-4DE0-91A7-69C188F4D3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1B10A4-65BF-4DE0-91A7-69C188F4D3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1B10A4-65BF-4DE0-91A7-69C188F4D3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1B10A4-65BF-4DE0-91A7-69C188F4D3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40040CBD-52B2-4BEA-B13B-384ACBD2686C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40040CBD-52B2-4BEA-B13B-384ACBD2686C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40040CBD-52B2-4BEA-B13B-384ACBD2686C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40040CBD-52B2-4BEA-B13B-384ACBD2686C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C64197-E64B-4A0E-8BA4-B1D6CBE44FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C64197-E64B-4A0E-8BA4-B1D6CBE44FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C64197-E64B-4A0E-8BA4-B1D6CBE44FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C64197-E64B-4A0E-8BA4-B1D6CBE44FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DB3C32-B882-45C6-9D6D-A66A3CCFC4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DB3C32-B882-45C6-9D6D-A66A3CCFC4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DB3C32-B882-45C6-9D6D-A66A3CCFC4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DB3C32-B882-45C6-9D6D-A66A3CCFC4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC8C6B5-ED60-4EE6-B8B8-1F75CE288A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC8C6B5-ED60-4EE6-B8B8-1F75CE288A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC8C6B5-ED60-4EE6-B8B8-1F75CE288A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC8C6B5-ED60-4EE6-B8B8-1F75CE288A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69598DA-FB9F-4D9F-9188-D9A2B1452315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69598DA-FB9F-4D9F-9188-D9A2B1452315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69598DA-FB9F-4D9F-9188-D9A2B1452315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69598DA-FB9F-4D9F-9188-D9A2B1452315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3287FE9-D4B3-4E11-AA4E-F114EAC21C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3287FE9-D4B3-4E11-AA4E-F114EAC21C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3287FE9-D4B3-4E11-AA4E-F114EAC21C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3287FE9-D4B3-4E11-AA4E-F114EAC21C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F595667-0A98-48C6-8792-F76731183E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F595667-0A98-48C6-8792-F76731183E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F595667-0A98-48C6-8792-F76731183E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F595667-0A98-48C6-8792-F76731183E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332C220D-68A7-40A5-A1AB-FD904A0B9A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332C220D-68A7-40A5-A1AB-FD904A0B9A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332C220D-68A7-40A5-A1AB-FD904A0B9A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332C220D-68A7-40A5-A1AB-FD904A0B9A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E36D377-85DB-4AF3-80DC-9B0D3DCEB071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E36D377-85DB-4AF3-80DC-9B0D3DCEB071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E36D377-85DB-4AF3-80DC-9B0D3DCEB071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E36D377-85DB-4AF3-80DC-9B0D3DCEB071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3FBF60-FEA8-45D6-B834-36B47CB2E429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3FBF60-FEA8-45D6-B834-36B47CB2E429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3FBF60-FEA8-45D6-B834-36B47CB2E429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3FBF60-FEA8-45D6-B834-36B47CB2E429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7674918-8D88-4974-A5C6-AD11BF321DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7674918-8D88-4974-A5C6-AD11BF321DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7674918-8D88-4974-A5C6-AD11BF321DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7674918-8D88-4974-A5C6-AD11BF321DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA69503-3911-4E2E-851D-C47539D3578D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA69503-3911-4E2E-851D-C47539D3578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA69503-3911-4E2E-851D-C47539D3578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA69503-3911-4E2E-851D-C47539D3578D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0CF242-357F-440B-AFA3-D6BAAE386B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0CF242-357F-440B-AFA3-D6BAAE386B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0CF242-357F-440B-AFA3-D6BAAE386B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0CF242-357F-440B-AFA3-D6BAAE386B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09EE4E8-A7DD-4BA1-9CCE-EC53A3784A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09EE4E8-A7DD-4BA1-9CCE-EC53A3784A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09EE4E8-A7DD-4BA1-9CCE-EC53A3784A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09EE4E8-A7DD-4BA1-9CCE-EC53A3784A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5139740-C9AC-48A4-B336-B2670954F244} = {FE61594D-35F4-4DB9-82A4-A84F595F3862}
+		{D0FBECA9-7B2C-4C67-9E12-BEB661DCE36B} = {FE61594D-35F4-4DB9-82A4-A84F595F3862}
+		{E4572232-444D-4B19-B7D3-A8DDE5C335E1} = {9820EA71-219B-48D0-B64B-9107E4A4CFE7}
+		{5F1B10A4-65BF-4DE0-91A7-69C188F4D3A0} = {9D004F0B-AF04-47CF-B1EC-2DF499E0ED02}
+		{40040CBD-52B2-4BEA-B13B-384ACBD2686C} = {B09B8105-2AAA-4B8B-A133-724299424168}
+		{F1C64197-E64B-4A0E-8BA4-B1D6CBE44FBC} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{E9DB3C32-B882-45C6-9D6D-A66A3CCFC4F6} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{CAC8C6B5-ED60-4EE6-B8B8-1F75CE288A78} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{C69598DA-FB9F-4D9F-9188-D9A2B1452315} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{E3287FE9-D4B3-4E11-AA4E-F114EAC21C1B} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{8F595667-0A98-48C6-8792-F76731183E31} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{332C220D-68A7-40A5-A1AB-FD904A0B9A10} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{6E36D377-85DB-4AF3-80DC-9B0D3DCEB071} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{7A3FBF60-FEA8-45D6-B834-36B47CB2E429} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{A7674918-8D88-4974-A5C6-AD11BF321DF4} = {799393D8-FEBD-4AF5-87F7-9D63D3C273B8}
+		{8FA69503-3911-4E2E-851D-C47539D3578D} = {3DBE3185-6DB2-43AA-9358-811AC994AD54}
+		{7C0CF242-357F-440B-AFA3-D6BAAE386B17} = {AC53A89C-F2EC-48FF-97ED-48C16F290211}
+		{B09EE4E8-A7DD-4BA1-9CCE-EC53A3784A8A} = {AC53A89C-F2EC-48FF-97ED-48C16F290211}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94357CBD-C1F2-4BB7-BD52-E327B0FB8488}
+	EndGlobalSection
+EndGlobal
