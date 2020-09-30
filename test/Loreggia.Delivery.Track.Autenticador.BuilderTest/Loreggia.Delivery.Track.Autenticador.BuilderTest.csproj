@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Loreggia.Delivery.Track.Autenticador.Applications\Loreggia.Delivery.Track.Autenticador.Applications.csproj" />
     <ProjectReference Include="..\..\src\Loreggia.Delivery.Track.Autenticador.Domain\Loreggia.Delivery.Track.Autenticador.Domain.csproj" />
   </ItemGroup>
 
